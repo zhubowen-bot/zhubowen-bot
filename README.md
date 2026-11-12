@@ -39,7 +39,6 @@
 <div align="center">
 
 <sub>
-<a href="mailto:bowen_zbw@sjtu.edu.cn"><img src="https://img.shields.io/badge/bowen__zbw@sjtu.edu.cn-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="SJTU Mail" /></a>
 <a href="mailto:15196443523@139.com"><img src="https://img.shields.io/badge/15196443523@139.com-0066CC?style=flat-square&logo=maildotru&logoColor=white" alt="139 Mail" /></a>
 <a href="https://guncatwork.netlify.app/"><img src="https://img.shields.io/badge/guncatwork.netlify.app-00C7B7?style=flat-square&logo=netlify&logoColor=white" alt="Homepage" /></a>
 </sub>
