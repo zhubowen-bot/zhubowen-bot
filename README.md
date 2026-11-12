@@ -14,7 +14,7 @@
 
 <br/><br/>
 
-<img src="assets/guncat.svg" width="460" alt="Guncat：会眨眼、会摇尾巴、会开炮、会掉头发" />
+<img src="guncat.svg" width="460" alt="Guncat：会眨眼、会摇尾巴、会开炮、会掉头发" />
 
 </div>
 
