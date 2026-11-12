@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 220" width="460" height="220">
+  <style>
+    .eye {
+      animation: blink 4s infinite;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    @keyframes blink {
+      0%, 92%, 100% { transform: scaleY(1); }
+      95%, 98% { transform: scaleY(0.1); }
+    }
+
+    .tail {
+      animation: wag 1.2s ease-in-out infinite;
+      transform-box: view-box;
+      transform-origin: 120px 150px;
+    }
+    @keyframes wag {
+      0%, 100% { transform: rotate(-12deg); }
+      50% { transform: rotate(18deg); }
+    }
+
+    .muzzle {
+      animation: flash 2.4s infinite;
+    }
+    @keyframes flash {
+      0%, 75%, 100% { opacity: 0; }
+      78%, 85% { opacity: 1; }
+    }
+
+    .hair {
+      animation: fall 3s linear infinite;
+    }
+    .hair2 { animation-delay: 1s; }
+    .hair3 { animation-delay: 2s; }
+    @keyframes fall {
+      0% { transform: translateY(0); opacity: 0; }
+      10% { opacity: 1; }
+      100% { transform: translateY(60px); opacity: 0; }
+    }
+  </style>
+
+  <!-- 尾巴 -->
+  <path class="tail" d="M120 150 Q80 120 100 80" fill="none" stroke="#f59e0b" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- 身体 -->
+  <ellipse cx="230" cy="160" rx="80" ry="45" fill="#fbbf24"/>
+
+  <!-- 头 -->
+  <circle cx="210" cy="100" r="55" fill="#fbbf24"/>
+
+  <!-- 耳朵 -->
+  <path d="M170 60 L160 20 L200 50 Z" fill="#fbbf24"/>
+  <path d="M250 60 L260 20 L220 50 Z" fill="#fbbf24"/>
+
+  <!-- 眼睛 -->
+  <circle class="eye" cx="190" cy="95" r="8" fill="#1f2937"/>
+  <circle class="eye" cx="230" cy="95" r="8" fill="#1f2937"/>
+
+  <!-- 鼻子和嘴 -->
+  <path d="M205 110 L215 110 L210 118 Z" fill="#f97316"/>
+  <path d="M210 118 Q200 128 195 122" fill="none" stroke="#1f2937" stroke-width="2"/>
+  <path d="M210 118 Q220 128 225 122" fill="none" stroke="#1f2937" stroke-width="2"/>
+
+  <!-- 炮 -->
+  <rect x="270" y="120" width="90" height="22" rx="8" fill="#475569"/>
+  <rect x="350" y="112" width="20" height="38" rx="4" fill="#334155"/>
+
+  <!-- 炮口闪光 -->
+  <circle class="muzzle" cx="375" cy="131" r="18" fill="#fde047"/>
+  <circle class="muzzle" cx="375" cy="131" r="10" fill="#fb923c"/>
+
+  <!-- 掉头发 -->
+  <g class="hair">
+    <line x1="185" y1="45" x2="185" y2="65" stroke="#1f2937" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g class="hair hair2">
+    <line x1="235" y1="45" x2="235" y2="65" stroke="#1f2937" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g class="hair hair3">
+    <line x1="210" y1="40" x2="210" y2="60" stroke="#1f2937" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>
