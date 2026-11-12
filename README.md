@@ -1,6 +1,6 @@
 <div align="center">
 
-# Zhu Bowen
+# Guncat
 
 <sub>上海交通大学 · 电气本科生里的计算机爱好者</sub>
 
